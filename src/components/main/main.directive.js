@@ -6,7 +6,7 @@
     .module('inputJSON.components.main')
     .directive('fileUpload', fileUpload);
 
-  function fileUpload($parse) {
+  function fileUpload() {
 
   }
 
