@@ -11,6 +11,9 @@
   function mainController($scope) {
     /*jshint validthis: true */
     this.greeting = 'Code Challenge Solution';
+    $scope.showContent = ($fileContent) => {
+      $scope.content = $fileContent;
+    };
   }
 
 })();
