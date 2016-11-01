@@ -13,11 +13,6 @@
         controller: 'mainController',
         controllerAs: 'mainCtrl',
         templateUrl: 'components/main/main.view.html'
-      })
-      .state('main.converted', {
-        controller: 'mainController',
-        controllerAs: 'mainCtrl',
-        templateUrl: 'components/main/partials/_converted.html'
       });
   }
 
