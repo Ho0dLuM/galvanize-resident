@@ -1,8 +1,12 @@
 <div class="container">
   <h1>{{ mainCtrl.greeting }}</h1><br><hr>
-    <input type="file" file-upload="showContent($fileContent)"/>
+    <input type="file" file-upload="mainCtrl.showContent($fileContent)"/>
     <div ng-if="content">
       <h2>File content is:</h2>
-      <pre>{{ content }}</pre>
+      <pre>{{ content }}</pre><br>
+    </div>
+    <div ng-if="html">
+      <a ui-sref="main.converted">Converted to HTML:</a>
+        <div ui-view></div>
     </div>
 </div>
