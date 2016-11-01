@@ -4,6 +4,7 @@
 
   angular
     .module('inputJSON', [
+      'ngSanitize',
       'ui.router',
       'ui.bootstrap',
       'inputJSON.config',
